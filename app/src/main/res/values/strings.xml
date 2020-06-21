@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AbhishekRaturi_COMP304_LAB2</string>
+    <string name="Enter_Button">ENTER</string>
+    <string name="lentorlease_logo">LentOrLease_Logo</string>
+    <string name="apartment">Apartment</string>
+    <string name="detached_home">Detached Home</string>
+    <string name="semi_detached_home">Semi Detached Home</string>
+    <string name="town_house">Town House</string>
+    <string name="apartments_title">Apartments</string>
+    <string name="brampton_towers_1650">Brampton Towers $1650+</string>
+    <string name="payment">Payment</string>
+    <string name="the_peanut_toronto_1850">The Peanut Toronto $1850+</string>
+    <string name="lytton_park_1600">Lytton Park $1600+</string>
+    <string name="_14_germain_circle_2600">14 Germain Circle $2600</string>
+    <string name="_8_silver_maple_court_1800">8 Silver Maple Court $1800</string>
+    <string name="_440_remembrance_road_brampton_2800">440 Remembrance Road Brampton $2800</string>
+    <string name="condominium">Condominium</string>
+</resources>
