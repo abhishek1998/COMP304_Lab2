@@ -47,6 +47,12 @@
             android:layout_marginRight="120sp"
             android:text="@string/pay" />
 
+        <EditText
+            android:id="@+id/TotalPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
 
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
