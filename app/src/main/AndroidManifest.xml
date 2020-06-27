@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DetachedHome"></activity>
+        <activity android:name=".TownHouse"></activity>
+        <activity android:name=".SemiDetachedHome" />
+        <activity android:name=".DetachedHome" />
         <activity android:name=".Condominium" />
         <activity android:name=".Apartments" />
         <activity android:name=".Payment" />

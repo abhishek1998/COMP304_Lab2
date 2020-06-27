@@ -39,8 +39,12 @@ public class SecondScreen extends AppCompatActivity {
                 startActivity(intent);
                 break;
             case R.id.type_SemiDetachedHome:
+                intent = new Intent(this, SemiDetachedHome.class);
+                startActivity(intent);
                 break;
             case R.id.type_TownHouse:
+                intent = new Intent(this, TownHouse.class);
+                startActivity(intent);
                 break;
             default:
                 break;

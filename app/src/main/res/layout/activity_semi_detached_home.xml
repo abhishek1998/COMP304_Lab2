@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SemiDetachedHome">
+
+
+    <TextView
+        android:id="@+id/ApartmentTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/semi_detached_home"
+        android:textAlignment="center"
+        android:textSize="38sp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/apartment_1"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle_checkbox"
+        android:text="@string/brampton_towers_1650"
+        android:textSize="20sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        app:layout_constraintTop_toBottomOf="@+id/apartment_6"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <CheckBox
+        android:id="@+id/apartment_2"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle_checkbox"
+        android:text="@string/_440_remembrance_road_brampton_2800"
+        android:textSize="20sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        app:layout_constraintTop_toBottomOf="@+id/apartment_4"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <CheckBox
+        android:id="@+id/apartment_3"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/rectangle_checkbox"
+        android:text="@string/_8_silver_maple_court_1800"
+        android:textSize="20sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        app:layout_constraintTop_toBottomOf="@+id/ApartmentTitle"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <CheckBox
+        android:id="@+id/apartment_4"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle_checkbox"
+        android:text="@string/_14_germain_circle_2600"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/apartment_5"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <CheckBox
+        android:id="@+id/apartment_5"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle_checkbox"
+        android:text="@string/lytton_park_1600"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/apartment_1"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <CheckBox
+        android:id="@+id/apartment_6"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle_checkbox"
+        android:text="@string/the_peanut_toronto_1850"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/apartment_3"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/goto_paymentportal"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginBottom="28dp"
+        android:background="#F9A825"
+        android:gravity="center_vertical"
+        android:onClick="enter_PaymentScreen"
+        android:text="@string/payment"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/apartment_2"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="RtlCompat" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
